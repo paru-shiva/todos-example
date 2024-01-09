@@ -1,0 +1,26 @@
+GET https://shivakumarujhspnjscadoqbs.drops.nxtwave.tech/todos/
+
+GET https://shivakumarujhspnjscadoqbs.drops.nxtwave.tech/agenda/?date=2021-1-44
+
+GET https://shivakumarujhspnjscadoqbs.drops.nxtwave.tech/todos/?priority=HIGH
+
+POST https://shivakumarujhspnjscadoqbs.drops.nxtwave.tech/todos/
+Content-Type: application/json
+
+{
+  "id": 979,
+  "todo": "Imp",
+  "priority": "",
+  "status": "DONE",
+  "category": "HOME",
+  "dueDate": "2021-5-22"
+}
+
+PUT https://shivakumarujhspnjscadoqbs.drops.nxtwave.tech/todos/7
+Content-Type: application/json
+
+{
+  "priority": "HIH"
+}
+
+DELETE https://shivakumarujhspnjscadoqbs.drops.nxtwave.tech/todos/7
